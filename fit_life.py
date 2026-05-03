@@ -11,7 +11,7 @@ while True:
 user_age = int(input('Введите количество полных лет: '))
 while True:
     if user_age <= 0:
-        user_age = input('Введите количество полных лет: ')
+        user_age = int(input('Введите количество полных лет: '))
     break
 
 user_weight = float(input('Введите ваш вес в кг, например, 50.6: '))
